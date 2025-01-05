@@ -9,7 +9,7 @@ Este repositório demonstra como criar e implantar uma função AWS Lambda em Ja
 - Assembly (para empacotar o binário e o arquivo bootstrap em um zip)
 
 ## Build:
-O seguinte comando deve ser executado na raíz do projeto: `mvn clean package -Pnative-image -DskipTests`
+O seguinte comando deve ser executado na raíz do projeto: `mvn clean package -Pnative-image`
 
 ## Deploy:
 Após a execução do comando acima, o arquivo function-native.zip será gerado na pasta `target` e deverá ser utilizado para o upload do código da função Lambda na AWS.
