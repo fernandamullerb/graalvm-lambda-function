@@ -3,7 +3,7 @@
 Este repositório demonstra como criar e implantar uma função AWS Lambda em Java, utilizando a imagem nativa do GraalVM, para obter inicialização rápida e desempenho otimizado.
 
 ## Tecnologias:
-- Java 11 ou superior
+- Java 21
 - Maven Shade (para empacotar as dependências em um único jar)
 - GraalVM Native Image (para gerar o arquivo binário)
 - Assembly (para empacotar o binário e o arquivo bootstrap em um zip)
