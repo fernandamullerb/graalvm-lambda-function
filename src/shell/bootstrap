@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./function-binary "br.com.demo.AppRequestHandler::handleRequest"
